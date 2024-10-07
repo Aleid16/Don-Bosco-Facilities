@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Don Bosco School Facilities</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style type ="text/css">
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f3eeaf;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding: 20px 40px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            width: 120px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        header div {
+            display: block;
+        }
+
+        header h1, header h2 {
+            margin: 0;
+            color: #333;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        header h2 {
+            font-size: 1.2rem;
+            color: #555;
+            margin-top: 5px;
+        }
+
+        .facilities {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+
+        .facility {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: transparent;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .facility img {
+            width: 800px;  
+            height: 350px; 
+            border-radius: 10px;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .facility h3 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        .facility p {
+            font-size: 1rem;
+            color: #444;
+            margin-top: 5px;
+        }
+
+        footer {
+            background-color: #f3eeaf;
+            text-align: center;
+            padding: 10px;
+            border-radius: 20px;
+            margin: 20px auto 0;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Don Bosco Logo">
+        <div>
+            <h1>DON BOSCO TECHNICAL INSTITUTE OF MAKATI</h1>
+            <h2>SCHOOL FACILITIES</h2>
+        </div>
+    </header>
+
+    <div class="facilities">
+        <div class="facility">
+            <img src="main-lobby.png" alt="Main Lobby">
+            <h3>Main Lobby</h3>
+            <p>A welcoming space for students and visitors, featuring comfortable seating and information resources.</p>
+        </div>
+
+        <div class="facility">
+            <img src="savio-dome.png" alt="Savio Dome">
+            <h3>Savio Dome</h3>
+            <p>This multi-purpose area hosts sports events and school gatherings, equipped with modern facilities.</p>
+        </div>
+
+        <div class="facility">
+            <img src="canteen.png" alt="Canteen">
+            <h3>Canteen</h3>
+            <p>The canteen provides nutritious meals and snacks, promoting healthy eating among students.</p>
+        </div>
+
+        <div class="facility">
+            <img src="library.png" alt="Library">
+            <h3>Library</h3>
+            <p>The library offers a vast collection of books, journals, and digital resources to support student learning and research.</p>
+        </div>
+
+        <div class="facility">
+            <img src="braga-auditorium.png" alt="Braga Auditorium">
+            <h3>Braga Auditorium</h3>
+            <p>The auditorium is used for school events, assemblies, and performances, accommodating a large number of attendees.</p>
+        </div>
+
+        <div class="facility">
+            <img src="saint-john-bosco-parish.png" alt="Saint John Bosco Parish">
+            <h3>Saint John Bosco Parish</h3>
+            <p>A spiritual hub for the community, providing a place for worship, reflection, and community activities.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Don Bosco Technical Institute. Developed by: Aleid Xie</p>
+    </footer>
+</body>
+</html>
